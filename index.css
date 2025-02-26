@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'robotoregular';
+    
+    color: white;
+}
+
+a{
+    color: #FFFFFF;
+
+}
+
+/* ------------ THIS IS THE NAVIGATION SECTION ---------- */
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #061A40;
+    height: auto;
+    padding: 1vh 10vw;
+    flex-direction: column;
+    gap: 3vh;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border: 1px solid #B9D6F2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.navigation-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #061A40;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'robotobold';
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: centre;
+    float: right;
+    font-family: 'robotobold';
+
+}
+
+.menu-bar{
+    width: 20%;
+    height: 100%;
+    font-family: 'robotobold';
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    display: none;
+}
+
+.menu-bar i{
+    color: #B9D6F2;
+}
+.menu ul{
+    width: 100%;
+    min-height: 5vh;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7vw;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    color: #FFFFFF;
+    font-family: 'robotobold';
+}
+
+.menu ul li:hover{
+    padding: 0.5vh 3vw;
+    border-radius: 5%;
+    background-color: #B9D6F2;
+
+}
+
+.menu-bar-down{
+    width: 100%;
+    display: none;
+}
+.menu-bar-down ul{
+    padding: 3vh 5vw;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    flex-direction: column;
+    font-family: 'open_sansextrabold';
+   /* border: 2px solid #B9D6F2; */
+}
+.menu-bar-down ul li{
+    display: block;
+}
+
+.menu-bar-down ul li a{
+    font-family: 'open_sansextrabold';
+}
+
+.menu-bar-down ul li a:hover{
+    color: #0353A4
+}
+/* -----------THIS IS FOR THE HERO SECTION-------------- */
+.Hero{
+    width: 100vw;
+    height: 80vh;
+    background-color: #0353A4;
+    display: flex;
+    width: 100%;
+    padding-top: 7vh;
+
+}
+
+.Hero-text{
+    width: 100%;
+    padding-left: 10vw;
+    padding-top: 15vh;
+
+}
+.Hero-text .Intro{
+    font-size: 70px;
+    font-family: 'open_sansextrabold';
+    line-height: 15vh;
+}
+
+.bloody-text{
+    color: #061A40;
+    font-family: 'open_sansextrabold';
+}
+
+.Outro{
+    font-family: 'robotoregular'; 
+    font-size: 20px;
+    font-weight: bolder !important;
+    text-align: center;
+}
+
+.Hero-button{
+    width: 12vw;
+    height: 5vh;
+    border-radius: 7px;
+    background-color: #B9D6F2;
+    color: #061A40;
+    margin-top: 5vh;
+    font-family: 'robotobold';
+
+}
+
+.Hero-image{
+    width: 100%;
+
+}
+
+.Hero-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* ------------ THIIS IS THE ABOUT-US SECTION----------- */
+.about-us{
+    background-color: #061A40;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 10vw;
+}
+
+.about-us img{
+    width: 50%;
+    height: 50%;
+}
+
+.about-us-text{
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.text-one, .text-two{
+    font-family: 'open_sansextrabold';
+    color: #B9D6F2;
+    font-size: 30px;
+}
+
+.about-us-text .text-four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+    align-items: centre;
+    margin-top: 4vh;
+}
+
+.about-us-text .text-four div{
+    width: 50%;
+}
+.text-four span{
+    font-family: 'open_sansextrabold';
+}
+
+.about-us-text button{
+    background-color: #B9D6F2;
+    border-radius: 7px;
+    font-family: 'robotobold';
+    width: 12vw;
+    height: 5vh;
+    color: #061A40;
+    margin-top: 4vh;
+}
+
+
+/* ------------ THIIS IS THE PROJECT SECTION----------- */
+
+.Project{
+    background-color: #061A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 5vh 10vw;
+}
+
+.Project-title{
+    font-family: 'open_sansextrabold';
+    font-size: 20px;
+}
+
+.My-work{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+.work{
+    width: 30%;
+    height: 30vh;
+    padding: 2vh 2vw;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3vh;
+    background-color: #0353A4;
+    border-radius: 10px;
+    margin-top: 2vh;
+    box-shadow: 3px 3px 10px 1px #B9D6F2;
+}
+
+.work:hover{
+    opacity: 0.7;
+}
+
+.work div{
+    color: white;
+}
+.work .heading{
+    font-family: 'open_sansextrabold';
+    font-size: 15px;
+}
+/* ------------ THIIS IS THE SKILLS SECTION----------- */
+
+.Skills{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #0353A4;
+    padding: 5vh 10vw;
+}
+
+.Skills-text{
+  width: 100%;
+  border-radius: 10px;
+}
+.skill-text-heading{
+  font-family: 'open_sansextrabold';
+}
+
+
+.skills-progressbar{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-progress-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.html-progress-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    width: 100%;
+}
+.container span{
+    font-family: 'open_sansextrabold';
+}
+
+.nothing{
+  font-size: 12px;
+}
+
+/* ------------ THIIS IS THE CONTACT SECTION----------- */
+
+.contact-us{
+    height: 65vh;
+    background-color: #0353A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 10vw;
+
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: 3px solid #061A40;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    border-radius: 5px;
+    padding: 3vh 0;
+}
+
+legend{
+    margin-left: 30px;
+    font-family: 'open_sansextrabold';
+    font-size: 30px;
+    padding: 0 0.5vw;
+
+}
+
+.form-name, .form-email{
+    width: 50%;
+    height: 30%;
+    color: black;
+    border-radius: 5px;
+    padding: 0 1vw;
+    color: #061A40;
+    font-size: 15px;
+    font-family: 'robotobold';
+}
+
+.form-message{
+    width: 50%;
+    height: 100%;
+    color: black;
+    border-radius: 5px;
+    padding: 0 1vw;
+    color: #061A40;
+    font-size: 15px;
+    font-family: 'robotobold';
+  
+}
+
+
+.submit-form{
+    width: 12vw;
+    height: 5vh;
+    border-radius: 7px;
+    background-color: #B9D6F2;
+    color: #061A40;
+    font-family: 'robotobold';
+}
+
+
+/* ------------ THIIS IS THE FOOTER SECTION----------- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5vw;
+    background-color: #061A40;
+    height: 10vh;
+    padding: 0 10vw;
+}
+
+.footer-text{
+    font-family: 'open_sansextrabold';
+    font-size: 20px;
+
+}
+.scrolltop{
+    float: left;
+    border: 1px solid #B9D6F2;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2vh;
+    right: 1vw;
+    height: 150px;
+    width: 150px;
+    background-color: #061A40;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.scrolltop i{
+    color: #B9D6F2;
+}
+
+
+/* ------- MEDIA QUERY FOR MOBILE---------*/
+
+@media screen and (max-width: 480px) {
+  /* Your styles for Android phones */
+  
+  /* -------- NAVIGATION ------- */
+  .navigation{
+    padding: 2vh 5vw;
+    height: auto;
+  }
+  
+  .logo{
+    font-size: 28px;
+  }
+  
+  .menu{
+    display: none;
+    border: 2px solid green;
+  }
+  .menu-bar{
+    display: flex;
+  }
+  
+  /* ------ HERO SECTION ------- */
+  .Hero{
+    flex-direction: column;
+    padding: 0vh 5vw;
+    height: 80vh;
+  }
+  
+  .Hero-text{
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Hero-image{
+    display: none;
+  }
+  .scrolltop{
+    height: 50px;
+    width: 50px
+  }
+  
+  .scrolltop i{
+    font-size: 15px;
+  }
+  .about-us, .text-four, .Skills, .Project, .My-work, .contact-us, .footer{
+    flex-direction: column;
+    gap: 3vh;
+    padding: 5vw;
+
+  }
+  .Intro{
+    font-size: 55px !important;
+  }
+  
+  .Hero-button{
+    width: 40vw;
+    border-radius: 10px;
+    height: 5vh;
+  }
+  
+  .My-work{
+    width: 100%;
+    height: 100%;
+  }
+  .work{
+    width: 100%;
+    height: auto;
+    padding: 5vw;
+    font-size: 15px;
+
+  }
+  .heading{
+    font-size: 28px !important;
+    
+  }
+  .about-us img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .form-name, .form-email, .form-message{
+    width: 80%;
+    
+  }
+  .submit-form{
+    width: 40vw;
+    border-radius: 10px;
+    height: 5vh;
+  }
+  .footer-text{
+    font-size: 15px;
+  }
+  .contact-us{
+    height: auto;
+    
+  }
+  .about-us-text .text-four div{
+    width: 100%;
+  }
+  .about-us-text button{
+    width: 40vw;
+    border-radius: 10px;
+    height: 5vh;
+  }
+  .text-two{
+    font-size: 24px !important;
+  }
+  .breaking{
+    display: none;
+  }
+
+}
