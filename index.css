@@ -7,7 +7,6 @@
     border: none;
     outline: none;
     font-family: 'robotoregular';
-    
     color: white;
 }
 
@@ -96,8 +95,8 @@ a{
 }
 
 .menu ul li:hover{
-    padding: 0.5vh 3vw;
-    border-radius: 5%;
+    padding: 0.6vh 1.3vw;
+    border-radius: 10px;
     background-color: #B9D6F2;
 
 }
@@ -225,6 +224,7 @@ a{
 
 .about-us-text .text-four div{
     width: 50%;
+
 }
 .text-four span{
     font-family: 'open_sansextrabold';
@@ -290,6 +290,9 @@ a{
 
 .work div{
     color: white;
+    font-size: 12px;
+
+
 }
 .work .heading{
     font-family: 'open_sansextrabold';
@@ -412,7 +415,7 @@ legend{
 
 .submit-form{
     width: 12vw;
-    height: 5vh;
+    height: 10vh;
     border-radius: 7px;
     background-color: #B9D6F2;
     color: #061A40;
@@ -434,7 +437,7 @@ legend{
 
 .footer-text{
     font-family: 'open_sansextrabold';
-    font-size: 20px;
+    font-size: 16px;
 
 }
 .scrolltop{
@@ -444,10 +447,10 @@ legend{
     position: fixed;
     bottom: 2vh;
     right: 1vw;
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
     background-color: #061A40;
-    font-size: 70px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
